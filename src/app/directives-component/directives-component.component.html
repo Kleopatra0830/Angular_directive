@@ -1,0 +1,8 @@
+<p>directives-component works!</p>
+
+<ul>
+  <li *ngFor="let number of numbers; let i = index" class="list-item">
+    <span class="number">{{ number }}</span>
+    <button (click)="removeNumber(i)">Remove</button>
+  </li>
+</ul>
